@@ -1,0 +1,28 @@
+name: secure_auth_app
+description: A secure banking authentication Flutter app with sign in and sign up functionality.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.17
+  local_auth: ^3.0.1
+  intl: ^0.20.2
+  shared_preferences: ^2.5.5
+  firebase_core: ^3.1.0
+  cloud_firestore: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
